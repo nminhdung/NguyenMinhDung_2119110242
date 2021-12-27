@@ -12,5 +12,8 @@ namespace NguyenMinhDung.DTO.Customer
         public string Name { get; set; }
         public string Phone { get; set; }
         public decimal Owe { get; set; }
+
+        public string Category { get; set; }
+      
     }
 }
