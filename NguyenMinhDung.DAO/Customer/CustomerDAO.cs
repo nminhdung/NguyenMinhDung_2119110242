@@ -70,6 +70,7 @@ namespace NguyenMinhDung.DAO.Customer
             cmd.Parameters.Add(new SqlParameter("@sodienthoai", cus.Phone));
             cmd.Parameters.Add(new SqlParameter("@sotienno", cus.Owe));
             //abc
+            //abc2
             cmd.ExecuteNonQuery();
             connect.Close();
         }
